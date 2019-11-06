@@ -1,6 +1,6 @@
 classes=2
-train=./data/names.txt
-valid=./data/names.txt
+train=./data/train_data.txt
+valid=./data/test_data.txt
 names=data/coco.names
 backup=backup/
 eval=coco
