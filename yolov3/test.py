@@ -74,6 +74,9 @@ def test(cfg,
 
         # Compute loss
         if hasattr(model, 'hyp'):  # if model has loss hyperparameters
+            #print("TRAIN_OUT", train_out)
+            #print("TARGETS", targets)
+            #print("MODEL", model)
             loss += compute_loss(train_out, targets, model)[1][:3].cpu()  # GIoU, obj, cls
 
         # Run NMS

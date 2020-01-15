@@ -14,4 +14,6 @@
 ## Useful scripts
 -directoryGenerator.py for creating test_data and train_data files (randomly assigns test/train)
 
--fileRenamer.py for adding underscores in image names
+-fileRenamer.py for adding underscores in image names (to fit above format)
+
+-inBounds.py deletes all labels with bounding boxes that go outside of YOLO's allowed range (0-1). Can be modified to just put them in the correct range
