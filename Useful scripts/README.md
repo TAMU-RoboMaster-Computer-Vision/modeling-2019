@@ -9,3 +9,5 @@
 -**xml_to_txt:** Regular xml to txt conversion
 
 -**xml_to_txt_nameplate_only:** Transform xml file to txt (yolo format), only keeping nameplate boxes (Red/Blue/Disabled)
+
+-**YoloBBoxes:** Generate output images using Colab model (from result.txt file)
